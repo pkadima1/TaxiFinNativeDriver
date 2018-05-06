@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "22155745123",
+    "firebase_url": "https://taxifindb1.firebaseio.com",
+    "project_id": "taxifindb1",
+    "storage_bucket": "taxifindb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22155745123:android:9c0ba707d4a98f57",
+        "android_client_info": {
+          "package_name": "com.taxifin.tshims.taxifin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22155745123-7fkdkqmb6md6ll6rnl6ak8lv5gtc9rts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taxifin.tshims.taxifin",
+            "certificate_hash": "466476ce79343df38ca13dda5d6a983e0c110e48"
+          }
+        },
+        {
+          "client_id": "22155745123-q8ofdflktlnmdfo77l4ueqf3ohr95v8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDemTM-QCQy5KNqN35BljRmEWQDv-kIFdY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22155745123-q8ofdflktlnmdfo77l4ueqf3ohr95v8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

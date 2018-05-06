@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TaxiFin</string>
+    <string name="w_u_z_y">W U Z Y</string>
+    <string name="partner">PARTNER</string>
+    <string name="looking_for_a_quick_rider_app">LOOKING FOR A QUICK RIDER APP?</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="register">REGISTER</string>
+    <string name="title_activity_welcome">Map</string>
+    <string name="google_direction_api">AIzaSyBSzOOSJSWfSsSymTcgAnh_u1tmIiKuPE4</string>
+</resources>
