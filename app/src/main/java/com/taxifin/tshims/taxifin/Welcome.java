@@ -427,6 +427,7 @@ public class Welcome extends FragmentActivity implements OnMapReadyCallback,
                     }
 
                 }
+                break;
         }
     }
 
