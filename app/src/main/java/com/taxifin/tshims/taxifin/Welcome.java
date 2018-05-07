@@ -198,6 +198,7 @@ public class Welcome extends FragmentActivity implements OnMapReadyCallback,
         location_switch.setOnCheckedChangeListener(new MaterialAnimatedSwitch.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(boolean isOnline) {
+                //handler=new Handler();/////////////////////////
                 if(isOnline){
                     
                     startLocationUpdates();
@@ -251,7 +252,7 @@ public class Welcome extends FragmentActivity implements OnMapReadyCallback,
 
 
         //Geo Fire
-        drivers = FirebaseDatabase.getInstance().getReference("Drivers");
+        drivers = FirebaseDatabase.getInstance().getReference(Common.driver_tbl);
         geoFire = new GeoFire(drivers);
         
         SetUpLocation();
@@ -503,7 +504,7 @@ public class Welcome extends FragmentActivity implements OnMapReadyCallback,
 
     private void displayLocation() {
 
-        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
                 ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED )
         {
             return;
